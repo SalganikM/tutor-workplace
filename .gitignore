@@ -1,1 +1,5 @@
 .idea
+pg-migration-service.iml
+task-service.iml
+tutor-workplace.iml
+.gitignore

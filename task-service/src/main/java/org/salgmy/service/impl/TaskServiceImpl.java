@@ -1,6 +1,7 @@
 package org.salgmy.service.impl;
 
 import lombok.RequiredArgsConstructor;
+import org.salgmy.dao.entity.Task;
 import org.salgmy.dao.repository.TaskRepository;
 import org.salgmy.domain.TaskDTO;
 import org.salgmy.service.TaskMapper;
@@ -16,6 +17,7 @@ public class TaskServiceImpl implements TaskService {
     private final TaskMapper mapper;
 
     public List<TaskDTO> getAllTasks() {
-        return mapper.map(repository.findAll());
+        List<Task> tasks = repository.findAll();
+        return mapper.map(tasks);
     }
 }

@@ -12,6 +12,6 @@ CREATE TABLE e_task(
    meta_info VARCHAR(128),
 
    condition TEXT,
-   condition_hash VARCHAR(40),
+   condition_file_hash VARCHAR(40),
    condition_file_path VARCHAR
 );

@@ -6,4 +6,5 @@
 
     <include file="db/task/DDL/26.11.2023_e_task.sql" relativeToChangelogFile="false"/>
     <include file="db/task/DDL/26.11.2023_e_solution.sql" relativeToChangelogFile="false"/>
+    <include file="db/task/DML/27.11.2023_insert_e_task.sql" relativeToChangelogFile="false"/>
 </databaseChangeLog>
